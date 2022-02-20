@@ -1,0 +1,13 @@
+.card{
+    height: 500px;
+    width:700px;
+    margin:10px;
+}
+
+.custom-card{
+width: 18rem;
+height: auto;}
+
+.list-group-item{
+    min-height:150px;
+}

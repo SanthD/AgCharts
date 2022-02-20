@@ -1,0 +1,91 @@
+<div class="card bg-white">
+    <div class="card-header bg-white">
+        <div class="float-end">
+           <i class="fa fa-edit"></i>  &nbsp;
+             <i class="fa fa-close"></i>
+        </div>
+        
+    </div>
+    <div class="card-body">
+        <div class="container">
+            <div class="row">
+              <div class="col-6">
+                            <ngx-charts-number-card  [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                </ngx-charts-number-card> 
+              </div>
+              <div class="col-6">
+                <!-- <div class="row">
+                    <div class="col">
+                        Active Data
+                    </div>
+                    <div class="col">
+                        Active Data
+                    </div> 
+                </div>-->
+                <div class="card custom-card" >
+                    <ul class="list-group list-group-flush ">
+                      <li class="list-group-item  mb-2 ">  <i class="fa fa-check text-center text-success"></i> Active Data</li>
+                      <li class="list-group-item ">  <i class="fa fa-close text-center text-danger"></i> Deative Data</li>
+                    </ul>
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+    </div>
+    <div class="card-footer bg-primary">
+      <h3 class="title-3">Number Card</h3>
+    </div>
+</div>
+  
+
+
+
+   <!-- <div class="card bg-white">
+    <div class="card-header bg-white">
+        <div class="float-end">
+           <i class="fa fa-edit"></i>  &nbsp;
+             <i class="fa fa-close"></i>
+        </div>
+        
+    </div>
+    <div class="card-body">
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="col-8">
+                        <span class="text-primary"> 
+                            <i class="fa fa-database "></i>
+                        </span>
+                        <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                        </ngx-charts-number-card> 
+                    </td>
+                  
+                        <td>
+                            <span class="text-primary"> 
+                                <i class="fa fa-database "></i>
+                            </span>
+                            <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                            </ngx-charts-number-card> 
+                        </td>
+                        <td>
+                            <span class="text-primary"> 
+                                <i class="fa fa-database "></i>
+                            </span>
+                            <ngx-charts-number-card   [results]="productSales" [view]="view" [scheme]="colorScheme" [cardColor]="cardColor" (select)="onSelect($event)">
+                            </ngx-charts-number-card> 
+                        </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+               
+         </table>
+            
+          </div>
+    </div>
+    <div class="card-footer bg-primary">
+      <h3 class="title-3">Number Card</h3>
+    </div>
+  </div>
+   -->
